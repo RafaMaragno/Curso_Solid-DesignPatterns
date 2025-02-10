@@ -2,13 +2,17 @@ class User {
     String name;
     String email;
 
-    User(this.name, this.email);
+//  User (this.name, this.email);
+}
 
-    void saveUserToDatabase() {
+class UserRepository {
+        void saveUserToDatabase(User user) {
         // save user to the database
     }
+}
 
-    void showWelcomeMessage() {
-        print('Welcome, $name!');
+class UserWelcome {
+    void showWelcomeMessage(User user) {
+    //  print('Welcome, ${user.name}!');
     }
 }
