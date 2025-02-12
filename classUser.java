@@ -1,3 +1,4 @@
+// SOLID - Single Responsability Principle (SRP)
 class User {
     String name;
     String email;

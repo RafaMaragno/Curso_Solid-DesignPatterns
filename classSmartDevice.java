@@ -1,3 +1,4 @@
+// SOLID - Interface Segregation Principle (ISP)
 abstract class Phone {
     void makeCall();
 }

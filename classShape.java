@@ -1,3 +1,4 @@
+// SOLID - Open/Closed Principle (OCP)
 abstract class Shape {
     double calculateArea();
 }

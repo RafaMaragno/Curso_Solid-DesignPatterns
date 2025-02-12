@@ -1,3 +1,4 @@
+// SOLID - Liskov Substituition Principle (LSP)
 abstract class Vehicle {
     void move();
 }
